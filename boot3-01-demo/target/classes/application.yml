@@ -1,0 +1,54 @@
+#1. k v 之間是空格區分
+#2. 屬性是有層級關係，使用下一行，空兩個空格
+#3. 左側對齊的代表同一層級的屬性
+---
+server:
+  port: 8888
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  data:
+    redis:
+      host: localhost
+      port: 6379
+--- #下邊的一個單獨的文本
+a: b
+person:
+  name: 'Chegsai \n 123'
+  age: 18
+  birth-day: 2010/10/12
+  like: true
+  child:
+    name: "ChegLia \n 123"
+    age: 12
+    birth-day: 2018/10/12
+    text:
+      - abc
+      - dcd
+      - |
+        dogs:
+          - name: Low1
+            age: 3
+          - name: Low2
+            age: 2
+      - >
+        XXXXXX
+        AAAAAAA
+        CCCCC
+      - |
+        dhhdh
+        fjkdsl
+        gflkd
+  dogs:
+    - name: Low1
+      age: 3
+    - name: Low2
+      age: 2
+  cats:
+    c1:
+      name: Jojo1
+      age: 4
+    c2: {name: Jojo2,age: 5}
+
+---
