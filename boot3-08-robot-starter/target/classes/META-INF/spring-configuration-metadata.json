@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "robot",
+      "type": "com.lawliet.boot3.starter.robot.properties.RobotProperties",
+      "sourceType": "com.lawliet.boot3.starter.robot.properties.RobotProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "robot.age",
+      "type": "java.lang.String",
+      "sourceType": "com.lawliet.boot3.starter.robot.properties.RobotProperties"
+    },
+    {
+      "name": "robot.email",
+      "type": "java.lang.String",
+      "sourceType": "com.lawliet.boot3.starter.robot.properties.RobotProperties"
+    },
+    {
+      "name": "robot.name",
+      "type": "java.lang.String",
+      "sourceType": "com.lawliet.boot3.starter.robot.properties.RobotProperties"
+    }
+  ],
+  "hints": []
+}
