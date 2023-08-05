@@ -1,0 +1,12 @@
+
+#--- #log
+#logging:
+#  group:
+#    ddd: com.lawliet.logging.controller,com.lawliet.logging.service,com.lawliet.logging.aaa,com.lawliet.logging.bbb
+#  level:
+#    root: info
+#    abc: debug
+#  file:
+#    name: D:\AP\Logs\SpringBoot3\demo3.log
+#    path: D:\AP\Logs\SpringBoot3\demo3_%d{yyyy-MM-dd}.log
+---

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!--Web開發通用的東西-->
+    <title th:fragment="mytitle" >Web開發</title>
+</head>
+<body>
+<header th:fragment="myheard" class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a th:href="@{/}" class="nav-link active" aria-current="page" th:text="#{home}">Home</a></li>
+        <li class="nav-item"><a th:href="@{/list}" class="nav-link" th:text="#{List}">List</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" th:text="#{faq}">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" th:text="#{about}">About</a></li>
+    </ul>
+
+    <div class="text-end">
+        <button type="button" class="btn btn-outline-light me-2" th:text="#{login}"></button>
+        <button type="button" class="btn btn-warning" th:text="#{signup}"></button>
+    </div>
+</header>
+<!--導航區-->
+</body>
+</html>
